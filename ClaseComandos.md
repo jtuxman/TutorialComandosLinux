@@ -12,7 +12,7 @@ ___
 Ventajas y desventajas contra un ambiente gráfico.
 
 
-![GUI-vs-CLI-info.jpg.webp](../_resources/GUI-vs-CLI-info.jpg.webp)
+![GUI-vs-CLI-info.jpg.webp](_resources/GUI-vs-CLI-info.jpg.webp)
 
 
 ___
@@ -31,16 +31,16 @@ Salida:
 jmanuel@conacyt:~$
 ```
 La salida de este comando es:
-![8789bc1cc3c5c3d23d80a4328c04dd5b.png](../_resources/8789bc1cc3c5c3d23d80a4328c04dd5b.png)
+![8789bc1cc3c5c3d23d80a4328c04dd5b.png](_resources/8789bc1cc3c5c3d23d80a4328c04dd5b.png)
 ___
 # Estructura de un comando.
 
-![c1c37ac5412dca3e1eb2e9b53ef56eba.png](../_resources/c1c37ac5412dca3e1eb2e9b53ef56eba.png)
+![c1c37ac5412dca3e1eb2e9b53ef56eba.png](_resources/c1c37ac5412dca3e1eb2e9b53ef56eba.png)
 
 
 ___
 # Comandos más utilizados
-![BasicCommandsBash.png](../_resources/BasicCommandsBash.png)
+![BasicCommandsBash.png](_resources/BasicCommandsBash.png)
 
 ---
 # Ayuda
@@ -54,7 +54,7 @@ ls --help
 man ls
 ```
 
-![b153ae5a8d5ed5dd8ca58e9529e6844f.png](../_resources/b153ae5a8d5ed5dd8ca58e9529e6844f.png)
+![b153ae5a8d5ed5dd8ca58e9529e6844f.png](_resources/b153ae5a8d5ed5dd8ca58e9529e6844f.png)
 
 el manual presenta ayuda únicamente de los comandos del sistema, no presenta ayuda de programas instalados fuera del manejador de paquetes.
 ___
@@ -76,10 +76,10 @@ Primero que nada es necesario conocer el arbol de directorios de los sistemas Li
 
 
 
-![FileSystemHierarchy.png](../_resources/FileSystemHierarchy.png)
+![FileSystemHierarchy.png](_resources/FileSystemHierarchy.png)
 
 ## Describiendo el árbol con la diagonal (slash)
-![b405c601d5be4bd78a150878cf4923c8.png](../_resources/b405c601d5be4bd78a150878cf4923c8.png)
+![b405c601d5be4bd78a150878cf4923c8.png](_resources/b405c601d5be4bd78a150878cf4923c8.png)
 
 / es la raiz del sistema
 /Users/larry  es el directorio de inicio del usuario larry
@@ -106,7 +106,7 @@ ___
 ## Paréntensis 
 El uso de ciertas combinaciones de teclas ayudan a acerlerar el proceso de escribir los comandos más rápidamente.
 
-![LinuxTerminalShorcuts.png](../_resources/LinuxTerminalShorcuts.png)
+![LinuxTerminalShorcuts.png](_resources/LinuxTerminalShorcuts.png)
 
 
 ___
@@ -138,7 +138,7 @@ Es posible utilizar rutas absolutas y relativas, por ejemplo:
 ```
 cp /etc/passwd .
 cd cursobash/dircurso/shell-lesson-data
-cp Documents.tar ../curso/R/
+cp Documents.tar curso/R/
 ```
 Copiar un directorio completo con el modificador -R (verificar los modificadores posibles del comando cp con man)
 ```
@@ -162,7 +162,7 @@ Para ver que alias tenemos definidos en el sistema ejecutar solo el comando:
 ```
 alias 
 ```
-![52ee9a897b840482c2f60ebec7430adb.png](../_resources/52ee9a897b840482c2f60ebec7430adb.png)
+![52ee9a897b840482c2f60ebec7430adb.png](_resources/52ee9a897b840482c2f60ebec7430adb.png)
 el si
 ```
 alias ls='ls -ltr --color=auto'
@@ -173,7 +173,7 @@ Depende del shell utilizado por el sistema se puede definir que al inicio de la 
 ```
 cat .bashrc
 ```
-![58c578a97e875f5e4308ab34b956433a.png](../_resources/58c578a97e875f5e4308ab34b956433a.png)
+![58c578a97e875f5e4308ab34b956433a.png](_resources/58c578a97e875f5e4308ab34b956433a.png)
 
 ___
 ## Variables de entorno.
@@ -182,14 +182,14 @@ Existen varias formas de conocer el contenido de las variables de entono, si no 
 ```
 env
 ```
-![2ee1d73ed85831686d1cfa8cac598896.png](../_resources/2ee1d73ed85831686d1cfa8cac598896.png)
+![2ee1d73ed85831686d1cfa8cac598896.png](_resources/2ee1d73ed85831686d1cfa8cac598896.png)
 ___
 Si conoce cuales variables están definidas ejecutar el comando 
 ```
 echo NombreVariable
 echo $PATH
 ```
-![fc41b33481913f71d89e685c7c7b44de.png](../_resources/fc41b33481913f71d89e685c7c7b44de.png)
+![fc41b33481913f71d89e685c7c7b44de.png](_resources/fc41b33481913f71d89e685c7c7b44de.png)
 
 __
 ## Definir y modificar variables de entorno
@@ -208,11 +208,11 @@ Existen 3 flujos de datos cuando se ejecutan comandos en el SHELL
 
 
 ---
-![0d29c7f034ba072c8a1257e98f01ff37.png](../_resources/0d29c7f034ba072c8a1257e98f01ff37.png)
+![0d29c7f034ba072c8a1257e98f01ff37.png](_resources/0d29c7f034ba072c8a1257e98f01ff37.png)
 ---
-![a4b9898159066a9f1d93def5f19184ff.png](../_resources/a4b9898159066a9f1d93def5f19184ff.png)
+![a4b9898159066a9f1d93def5f19184ff.png](_resources/a4b9898159066a9f1d93def5f19184ff.png)
 ---
-![d5a18c3859bd982373b8cb5e55681cd2.png](../_resources/d5a18c3859bd982373b8cb5e55681cd2.png)
+![d5a18c3859bd982373b8cb5e55681cd2.png](_resources/d5a18c3859bd982373b8cb5e55681cd2.png)
 ---
 ## Redireccionamiento E/S a un archivo
 Teclear los siguientes comandos en su terminal y explicar:
@@ -235,7 +235,7 @@ X
 X
 
 ---
-![c6a1c329912b219e4138d05e2cfc45f8.png](../_resources/c6a1c329912b219e4138d05e2cfc45f8.png)
+![c6a1c329912b219e4138d05e2cfc45f8.png](_resources/c6a1c329912b219e4138d05e2cfc45f8.png)
 __
 ## Redireccionamiento a otro comando
 Se puede redireccionar la salida de un comando hacia otro comando, para poder procesar la información que nos producen los comandos precedecesores.
@@ -245,10 +245,10 @@ file * | grep directory | wc -l
 ___
 ## Mirando el contenido de archivos.
 Encuentre el directorio llamado alkanes
-![d70bb4f5e3a491bbbca7190b611146c3.png](../_resources/d70bb4f5e3a491bbbca7190b611146c3.png)
+![d70bb4f5e3a491bbbca7190b611146c3.png](_resources/d70bb4f5e3a491bbbca7190b611146c3.png)
 
 ### Caracteres comodines
-![e1dfd85c93f5dba73f538f4b6b659cef.png](../_resources/e1dfd85c93f5dba73f538f4b6b659cef.png)
+![e1dfd85c93f5dba73f538f4b6b659cef.png](_resources/e1dfd85c93f5dba73f538f4b6b659cef.png)
 Caracter  * Permite buscar coincidencias de palabras completas ó partes de palabras
 *.pdb  todos los archivos
 p*.pdb  pentane.pdb y propane.pdbCaracter 
@@ -305,7 +305,7 @@ ___
  ```
  
  ___
- ![bc926d571e9bf03dbaffe4f7c1a342cc.png](../_resources/bc926d571e9bf03dbaffe4f7c1a342cc.png)
+ ![bc926d571e9bf03dbaffe4f7c1a342cc.png](_resources/bc926d571e9bf03dbaffe4f7c1a342cc.png)
  
 Parte de la presentación fue tomada de:
 https://cambiotraining.github.io/unix-shell
